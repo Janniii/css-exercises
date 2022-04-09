@@ -3,15 +3,30 @@
   color: hsl(0, 100%, 50%);
 }
 
-.small-para {
+.para.small-para {
   font-size: 14px;
 }
+
+/*
+.para.small-para {
+  font-size: 14px;
+}
+*/
 
 .para {
   font-size: 22px;
 }
 
-.confirm {
+
+
+/*.small-para {
+  font-size: 14px;
+}
+--- or here (below .para, and remove .para.small-para), then rule-order takes effect ---
+*/
+
+
+#confirm-button {
   background: green;
   color: white;
   font-weight: bold;
@@ -23,7 +38,7 @@
   font-size: 20px;
 }
 
-.child {
+.text .child {
   color: red;
   font-size: 14px;
 }
