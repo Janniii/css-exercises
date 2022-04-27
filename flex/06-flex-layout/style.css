@@ -1,5 +1,127 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+
+
+body {
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+
+
+.input {
+  margin-top: -4px;
+}
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 2px;
+  background: #eeeeee;
+}
+
+
+.left-links {
+  display: flex;
+  padding-left: 5px;
+}
+
+.right-links {
+  display: flex;
+  padding-right: 5px;
+}
+
+
+a {
+  padding: 5px;
+}
+
+
+
+a:link {
+  text-decoration: none;
+}
+
+
+
+img {
+  width: 600px;
+}
+
+
+
+ul {
+  list-style-type: none;
+}
+
+
+button {
+  font-family: Roboto, sans-serif;
+  border: none;
+  border-radius: 8px;
+  background: #eee;
+  padding: 8px 16px;
+}
+
+input {
+  border: 1px solid #ddd;
+  border-radius: 16px;
+  padding: 8px 24px;
+  width: 400px;
+  margin-bottom: 16px;
+}
+
+/*
+
+
+### Hints
+- You may want to search something like `CSS remove list bullets`.  We've done this for you in previous examples, but not here. Yay learning.
+- Finding out how to style links in CSS might help you get rid of that pesky underline decoration...
+- We've added `height: 100vh` to the `body`... this makes the body exactly the same height as the viewport. To stick the footer to the bottom you will need to use flex and change the direction to column.
+
+### Self Check
+
+- The header is at the top of the page, the footer is at the bottom, and they stay in place if you resize your screen.  - check
+- The header and footer have padding.                                                                                   - check 
+- The links in the header and footer are pushed to either side.                                                          - check
+- There is space between the links in the header and footer.                                                            - check
+- The footer has a light gray background (`#eeeeee`).                                                                   - check
+- The logo, input and buttons are centered in the screen.                                                               - check
+- The buttons have an appropriate amount of padding.                                                                    - check
+- There is space between the logo, input and buttons.                                                                    - check
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 body {
   height: 100vh;
   margin: 0;
@@ -25,3 +147,4 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+*/
